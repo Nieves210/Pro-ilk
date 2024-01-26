@@ -1,0 +1,20 @@
+import time
+
+meme_dict= { 
+            "LOL": "Komik bir şeye verilen cevap",
+            "CRINGE": "Garip ya da utandırıcı bir şey",
+            "ROFL": "Bir şakaya karşılık cevap",
+            "SHEESH": "Onaylamamak",
+            "CREEPY": "Korkunç",
+            "AGGRO": "Agrasifleşmek/sinirlenmek",  }
+            
+print("Merhaba modern kelimeler sözlüğüne hoş geldin!")
+time.sleep(1)
+word = input("Anlamadığınız bir kelime yazın (hepsini büyük veya küçük harflerle yazın!): ")     
+
+if word in meme_dict.keys():
+    # Kelime eşleşiyorsa ne yapmalıyız?
+    print (meme_dict[word])
+else:
+    # Kelime eşleşmiyorsa ne yapmalıyız?
+    print("Bu kelime sözlüğümüzde yok!")
