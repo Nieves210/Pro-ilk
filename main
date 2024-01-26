@@ -10,7 +10,7 @@ meme_dict= {
             
 print("Merhaba modern kelimeler sözlüğüne hoş geldin!")
 time.sleep(1)
-word = input("Anlamadığınız bir kelime yazın (hepsini büyük veya küçük harflerle yazın!): ")     
+word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ").upper()
 
 if word in meme_dict.keys():
     # Kelime eşleşiyorsa ne yapmalıyız?
